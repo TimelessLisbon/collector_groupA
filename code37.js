@@ -117,7 +117,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17010852);
 }
 if (isConditionTrue_0) {
+/* Reuse gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1 */
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
+}{gdjs.evtTools.firebaseTools.database.updateField("QR_Code", "Text", (( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1.length === 0 ) ? "" :gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[0].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))), runtimeScene.getScene().getVariables().getFromIndex(2));
 }}
 
 }
