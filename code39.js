@@ -54,7 +54,7 @@ gdjs.Percurso_32MiradouroCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9985588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21711460);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -71,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32MiradouroCode.userFunc0xce43b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32MiradouroCode.userFunc0x1682e60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -95,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32MiradouroCode.userFunc0x11ac280 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32MiradouroCode.userFunc0x1682eb8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -127,7 +127,7 @@ gdjs.Percurso_32MiradouroCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10009932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21710172);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -143,7 +143,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10012284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21674788);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -181,7 +181,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32MiradouroCode.GDy
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10015148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21677908);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -235,7 +235,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10025956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11020236);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -272,12 +272,12 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32MiradouroC
     gdjs.Percurso_32MiradouroCode.GDnext_9595sceneObjects1[i].setString("Video");
 }
 }{for(var i = 0, len = gdjs.Percurso_32MiradouroCode.GDURLObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32MiradouroCode.GDURLObjects1[i].setString("https://maps.app.goo.gl/RBPXVrRwzjqHXTHn6");
+    gdjs.Percurso_32MiradouroCode.GDURLObjects1[i].setString("https://www.google.pt/maps/place/Miradouro+de+S%C3%A3o+Pedro+de+Alc%C3%A2ntara/@38.7153084,-9.1467451,17z/data=!3m1!4b1!4m6!3m5!1s0xd19338037000861:0x1beb7972336de3a1!8m2!3d38.7153042!4d-9.1441702!16s%2Fg%2F1224hf85?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D");
 }
-}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(38.7087);
-}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(38.7095);
-}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(-(9.1396));
-}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(-(9.1404));
+}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(38.7149);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(38.7157);
+}{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(-(9.1463));
+}{runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(-(9.1471));
 }}
 
 }
@@ -571,7 +571,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32MiradouroCode.GDy
 {
 
 
-gdjs.Percurso_32MiradouroCode.userFunc0xce43b0(runtimeScene);
+gdjs.Percurso_32MiradouroCode.userFunc0x1682e60(runtimeScene);
 
 }
 
@@ -579,7 +579,7 @@ gdjs.Percurso_32MiradouroCode.userFunc0xce43b0(runtimeScene);
 {
 
 
-gdjs.Percurso_32MiradouroCode.userFunc0x11ac280(runtimeScene);
+gdjs.Percurso_32MiradouroCode.userFunc0x1682eb8(runtimeScene);
 
 }
 
