@@ -135,7 +135,7 @@ gdjs.copyArray(gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1, gdjs.QR_95Code
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2.length;i<l;++i) {
-    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == "https://open-scene-x/" ) {
+    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == "https://open-scene-x" ) {
         isConditionTrue_0 = true;
         gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[k] = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[i];
         ++k;
@@ -158,7 +158,7 @@ gdjs.QR_95Code_95readerCode.eventsList2(runtimeScene);} //End of subevents
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1.length;i<l;++i) {
-    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) != "https://open-scene-x/" ) {
+    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) != "https://open-scene-x" ) {
         isConditionTrue_0 = true;
         gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[k] = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[i];
         ++k;
