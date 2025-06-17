@@ -57,7 +57,7 @@ gdjs.QR_95Code_95readerCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25699108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17003892);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 0, 1);
@@ -74,7 +74,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25704196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17008908);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -83,7 +83,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.QR_95Code_95readerCode.asyncCallback25703324 = function (runtimeScene, asyncObjectsList) {
+};gdjs.QR_95Code_95readerCode.asyncCallback17008036 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BOMB DEACTIVATOR", false);
 }
@@ -100,7 +100,7 @@ gdjs.QR_95Code_95readerCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback25703324(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback17008036(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -114,7 +114,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25706140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17010852);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -133,7 +133,7 @@ gdjs.copyArray(gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1, gdjs.QR_95Code
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2.length;i<l;++i) {
-    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == "open-scene-x" ) {
+    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) == "https://open-scene-x/" ) {
         isConditionTrue_0 = true;
         gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[k] = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects2[i];
         ++k;
@@ -156,7 +156,7 @@ gdjs.QR_95Code_95readerCode.eventsList2(runtimeScene);} //End of subevents
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1.length;i<l;++i) {
-    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) != "open-scene-x" ) {
+    if ( gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[i].DetectedText((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) != "https://open-scene-x/" ) {
         isConditionTrue_0 = true;
         gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[k] = gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1[i];
         ++k;

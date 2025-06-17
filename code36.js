@@ -55,7 +55,7 @@ gdjs.GloriaCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25566228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13296276);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -77,7 +77,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25585892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13315828);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -121,7 +121,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25598204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13328140);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GloriaCode.GDanswerObjects1, gdjs.GloriaCode.GDanswerObjects2);
@@ -138,7 +138,7 @@ gdjs.copyArray(gdjs.GloriaCode.GDanswerObjects1, gdjs.GloriaCode.GDanswerObjects
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25599636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13329572);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -147,7 +147,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GloriaCode.asyncCallback25606364 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GloriaCode.asyncCallback13336300 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GloriaCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.GloriaCode.GDanswerObjects3);
 
@@ -168,14 +168,14 @@ gdjs.GloriaCode.eventsList3 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GloriaCode.localVariables);
 for (const obj of gdjs.GloriaCode.GDanswerObjects2) asyncObjectsList.addObject("answer", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GloriaCode.asyncCallback25606364(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GloriaCode.asyncCallback13336300(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GloriaCode.asyncCallback25609292 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GloriaCode.asyncCallback13339228 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GloriaCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.GloriaCode.GDanswerObjects2);
 
@@ -196,7 +196,7 @@ gdjs.GloriaCode.eventsList4 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GloriaCode.localVariables);
 for (const obj of gdjs.GloriaCode.GDanswerObjects1) asyncObjectsList.addObject("answer", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GloriaCode.asyncCallback25609292(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GloriaCode.asyncCallback13339228(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -210,7 +210,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25603492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13333428);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -300,7 +300,7 @@ gdjs.GloriaCode.eventsList4(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25611636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13341572);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -316,7 +316,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25613940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13336396);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -332,7 +332,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25616332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13314852);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -348,7 +348,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25618724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13331836);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -364,7 +364,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25625300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13313908);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -449,7 +449,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25630716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13330860);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -465,7 +465,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25638620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13286484);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(10);
@@ -481,7 +481,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25640260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13287980);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(7);
@@ -497,7 +497,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25641772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13289532);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(5);
@@ -513,7 +513,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25643140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16945836);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(3);
@@ -529,7 +529,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25634012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13325284);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -661,7 +661,7 @@ gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.GloriaCode.GDanswerObject
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9654708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10178924);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -695,7 +695,7 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.GloriaCode.GDokObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9666148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10190364);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "message-incoming-132126.mp3", false, 100, 1);
@@ -711,7 +711,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9668884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10193100);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(1));
