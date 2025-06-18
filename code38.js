@@ -151,7 +151,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10033924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15287396);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(4));
@@ -175,7 +175,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10045652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15276972);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -191,7 +191,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12515780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25081964);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -207,7 +207,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12518324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25084340);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -223,7 +223,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12520868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25086716);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -239,7 +239,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12523412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25089092);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -255,7 +255,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12525956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25091468);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -271,7 +271,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12528500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25093844);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -287,7 +287,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12531044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25096220);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -303,7 +303,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12533588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25098596);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -319,7 +319,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12536132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25100972);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -335,7 +335,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12538676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25103348);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -351,7 +351,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12541316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25105820);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -360,7 +360,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.BOMB_32DEACTIVATORCode.asyncCallback12550788 = function (runtimeScene, asyncObjectsList) {
+};gdjs.BOMB_32DEACTIVATORCode.asyncCallback25114452 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.BOMB_32DEACTIVATORCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("code"), gdjs.BOMB_32DEACTIVATORCode.GDcodeObjects3);
 
@@ -379,7 +379,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList13 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.BOMB_32DEACTIVATORCode.localVariables);
 for (const obj of gdjs.BOMB_32DEACTIVATORCode.GDcodeObjects2) asyncObjectsList.addObject("code", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.BOMB_32DEACTIVATORCode.asyncCallback12550788(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.BOMB_32DEACTIVATORCode.asyncCallback25114452(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -393,7 +393,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12549988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25113820);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -412,7 +412,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList13(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12560092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25123588);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(10);
@@ -429,7 +429,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12562668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25126164);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(7);
@@ -446,7 +446,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12565252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25128748);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(5);
@@ -463,7 +463,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12567404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25130900);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(3);
@@ -554,7 +554,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList18(runtimeScene, asyncObjectsList);} //End
 }
 
 
-};gdjs.BOMB_32DEACTIVATORCode.asyncCallback12558428 = function (runtimeScene, asyncObjectsList) {
+};gdjs.BOMB_32DEACTIVATORCode.asyncCallback25121924 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.BOMB_32DEACTIVATORCode.localVariables);
 
 { //Subevents
@@ -571,14 +571,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.BOMB_32DEACTIVATORCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.BOMB_32DEACTIVATORCode.asyncCallback12558428(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.BOMB_32DEACTIVATORCode.asyncCallback25121924(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.BOMB_32DEACTIVATORCode.asyncCallback12557716 = function (runtimeScene, asyncObjectsList) {
+};gdjs.BOMB_32DEACTIVATORCode.asyncCallback25121212 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.BOMB_32DEACTIVATORCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("code"), gdjs.BOMB_32DEACTIVATORCode.GDcodeObjects2);
 
@@ -600,7 +600,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList21 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.BOMB_32DEACTIVATORCode.localVariables);
 for (const obj of gdjs.BOMB_32DEACTIVATORCode.GDcodeObjects1) asyncObjectsList.addObject("code", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.BOMB_32DEACTIVATORCode.asyncCallback12557716(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.BOMB_32DEACTIVATORCode.asyncCallback25121212(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -614,7 +614,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12552268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25115932);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
@@ -633,7 +633,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12556876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25120540);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -652,7 +652,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList21(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12546340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25110340);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("code"), gdjs.BOMB_32DEACTIVATORCode.GDcodeObjects2);
@@ -716,7 +716,7 @@ gdjs.BOMB_32DEACTIVATORCode.eventsList22(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24616388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25020236);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(4));
@@ -750,7 +750,7 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.BOMB_32DEACTIVATORCode.GDokOb
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24626836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25031676);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "message-incoming-132126.mp3", false, 100, 1);
@@ -766,7 +766,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24603364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25034412);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(4));

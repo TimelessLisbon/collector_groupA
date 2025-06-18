@@ -107,7 +107,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10994276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10443252);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(2), runtimeScene.getScene().getVariables().getFromIndex(4));
