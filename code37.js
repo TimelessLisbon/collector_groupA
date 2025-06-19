@@ -191,6 +191,27 @@ gdjs.QR_95Code_95readerCode.eventsList3(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29841156);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Answer", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(2));
+}}
+
+}
+
+
+};gdjs.QR_95Code_95readerCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("MyQRScanner"), gdjs.QR_95Code_95readerCode.GDMyQRScannerObjects1);
@@ -295,6 +316,30 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(7).getAsString() == gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BOMB DEACTIVATOR", false);
+}
+{ //Subevents
+gdjs.QR_95Code_95readerCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };
 
 gdjs.QR_95Code_95readerCode.func = function(runtimeScene) {
@@ -349,7 +394,7 @@ gdjs.QR_95Code_95readerCode.GDgmapsObjects2.length = 0;
 gdjs.QR_95Code_95readerCode.GDgmapsObjects3.length = 0;
 gdjs.QR_95Code_95readerCode.GDgmapsObjects4.length = 0;
 
-gdjs.QR_95Code_95readerCode.eventsList5(runtimeScene);
+gdjs.QR_95Code_95readerCode.eventsList6(runtimeScene);
 gdjs.QR_95Code_95readerCode.GDfundoObjects1.length = 0;
 gdjs.QR_95Code_95readerCode.GDfundoObjects2.length = 0;
 gdjs.QR_95Code_95readerCode.GDfundoObjects3.length = 0;

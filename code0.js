@@ -198,7 +198,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() == 2);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restauradores Enigma", false);
 }}
 
 }
@@ -212,7 +212,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() == 3);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Fim", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restauradores Fim", false);
 }}
 
 }

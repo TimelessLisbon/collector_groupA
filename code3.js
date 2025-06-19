@@ -476,7 +476,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restauradores Enigma", false);
 }}
 
 }
@@ -529,7 +529,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restauradores Enigma", false);
 }}
 
 }
@@ -582,7 +582,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restauradores Enigma", false);
 }}
 
 }
@@ -1238,7 +1238,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene2");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene2");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Restauradores Enigma", false);
 }}
 
 }
