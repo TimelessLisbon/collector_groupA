@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Geolocation__LocatePlayer !== "undefined") {
 gdjs.evtsExt__Geolocation__LocatePlayer = {};
 
 
-gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0xabe160 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0x16b6508 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 this.logger = (this.logger || new gdjs.Logger("Geolocation extension"))
 
@@ -31,7 +31,7 @@ gdjs.evtsExt__Geolocation__LocatePlayer.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0xabe160(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0x16b6508(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
